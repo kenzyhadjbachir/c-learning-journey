@@ -1,0 +1,2 @@
+# Keep Windows line endings so the files open nicely in Notepad
+assets/*.txt -text

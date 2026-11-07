@@ -26,6 +26,7 @@ Hello, C world!
 ├── variables.c  # Lesson 1: Variables and types
 ├── conditions.c # Lesson 2: Conditions and loops
 ├── files.c      # Lesson 3: Writing files (+ all terminal commands)
+├── assets/      # Downloadable files (cmd-commands.txt)
 ├── Makefile     # Build and run commands
 ├── .gitignore   # Files Git should ignore
 ├── LICENSE      # MIT license
@@ -42,6 +43,15 @@ Hello, C world!
 | `make run-conditions`| Compile and run `conditions`   |
 | `make run-files`    | Compile and run `files`         |
 | `make clean`        | Delete compiled files           |
+
+## Downloads
+
+| File | Description |
+|------|-------------|
+| [cmd-commands.txt](https://github.com/kenzyhadjbachir/c-learning-journey/raw/main/assets/cmd-commands.txt) | Cheat sheet with all the Windows cmd commands. Opens in Notepad. |
+
+To download: click the link, then press `Ctrl + S` to save it. Or open the
+[`assets`](assets) folder, click the file, and use the download button.
 
 ## Roadmap
 

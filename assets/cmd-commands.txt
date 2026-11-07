@@ -1,0 +1,130 @@
+==========================================================
+ CMD COMMANDS - cheat sheet (Windows Command Prompt)
+ From the c-learning-journey project
+==========================================================
+
+How to open cmd:
+  Press the Windows key + R, type  cmd  and press Enter.
+  Or search for "Command Prompt" in the Start menu.
+
+Tip: press the UP arrow key to bring back the last command.
+Tip: press TAB to auto-complete a file or folder name.
+
+
+----------------------------------------------------------
+ 1. MOVING AROUND FOLDERS
+----------------------------------------------------------
+  cd                      show the current folder
+  dir                     list the files and folders here
+  dir /a                  list everything, including hidden files
+  cd folder-name          go into a folder
+  cd ..                   go back one folder
+  cd \                    go to the root of the drive
+  D:                      switch to drive D
+  cd /d D:\games          switch drive AND go to a folder
+
+
+----------------------------------------------------------
+ 2. FILES AND FOLDERS
+----------------------------------------------------------
+  mkdir my-folder         create a folder
+  rmdir my-folder         delete an empty folder
+  rmdir /s my-folder      delete a folder and everything in it
+  type file.txt           show the content of a text file
+  notepad file.txt        open (or create) a file in Notepad
+  copy a.txt b.txt        copy a file
+  move a.txt folder\      move a file into a folder
+  ren old.txt new.txt     rename a file
+  del file.txt            delete a file
+  del *.txt               delete all .txt files in this folder
+  echo Hello > file.txt   write text into a file (replaces it)
+  echo Hello >> file.txt  add text at the end of a file
+  tree                    show folders as a tree
+  attrib file.txt         show file attributes
+
+
+----------------------------------------------------------
+ 3. SCREEN AND HELP
+----------------------------------------------------------
+  cls                     clear the screen
+  help                    list all cmd commands
+  help dir                show help for one command
+  dir /?                  another way to get help
+  echo text               print text on the screen
+  title My Window         change the window title
+  color 0a                green text on black (try other values)
+  exit                    close the cmd window
+
+
+----------------------------------------------------------
+ 4. SYSTEM AND PROGRAMS
+----------------------------------------------------------
+  ver                     show the Windows version
+  systeminfo              show details about your PC
+  whoami                  show your user name
+  date /t                 show today's date
+  time /t                 show the current time
+  tasklist                list the running programs
+  taskkill /im name.exe /f   force close a program
+  shutdown /s /t 0        shut down the PC now
+  shutdown /r /t 0        restart the PC now
+  shutdown /a             cancel a scheduled shutdown
+  start .                 open the current folder in Explorer
+  start https://github.com   open a website
+
+
+----------------------------------------------------------
+ 5. NETWORK
+----------------------------------------------------------
+  ipconfig                show your IP address
+  ipconfig /all           show full network details
+  ping google.com         test your internet connection
+  tracert google.com      show the path to a website
+  nslookup github.com     find the IP address of a website
+  netstat -an             show network connections
+
+
+----------------------------------------------------------
+ 6. COMPILING AND RUNNING C PROGRAMS
+----------------------------------------------------------
+  gcc --version           check that the compiler is installed
+  gcc hello.c -o hello    compile hello.c into hello.exe
+  gcc -Wall -Wextra -std=c11 -o files files.c
+                          compile with warnings turned on
+  hello.exe               run the program
+  hello                   run the program (short way)
+  make                    build all programs (needs make)
+  make run                compile and run hello
+  make run-variables      compile and run variables
+  make run-conditions     compile and run conditions
+  make run-files          compile and run files
+  make clean              delete the compiled programs
+
+
+----------------------------------------------------------
+ 7. GIT AND GITHUB
+----------------------------------------------------------
+  git --version           check that git is installed
+  git clone https://github.com/kenzyhadjbachir/c-learning-journey.git
+                          download the repository
+  git status              see what changed
+  git add file.c          prepare one file for saving
+  git add .               prepare all changed files
+  git commit -m "text"    save a snapshot with a message
+  git push                send your commits to GitHub
+  git pull                get the latest changes from GitHub
+  git log --oneline       show the history of commits
+  git branch              list branches
+  git checkout -b name    create a new branch and switch to it
+  git checkout main       go back to the main branch
+
+
+----------------------------------------------------------
+ TIPS
+----------------------------------------------------------
+  - If a folder name has spaces, use quotes:  cd "My Games"
+  - Be careful with del and rmdir /s: deleted files do NOT
+    go to the Recycle Bin.
+  - Press Ctrl + C to stop a program that is running.
+  - Right-click in the cmd window to paste copied text.
+==========================================================
