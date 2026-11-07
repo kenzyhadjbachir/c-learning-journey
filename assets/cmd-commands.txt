@@ -98,6 +98,10 @@ Tip: press TAB to auto-complete a file or folder name.
   make run-variables      compile and run variables
   make run-conditions     compile and run conditions
   make run-files          compile and run files
+  make run-functions      compile and run functions
+  make run-arrays         compile and run arrays
+  make run-pointers       compile and run pointers
+  make run-structs        compile and run structs
   make clean              delete the compiled programs
 
 

@@ -6,6 +6,10 @@ hello
 variables
 conditions
 files
+functions
+arrays
+pointers
+structs
 
 # Files created by the programs when they run
 notes.txt

@@ -1,6 +1,6 @@
 CC       = gcc
 CFLAGS   = -Wall -Wextra -std=c11
-PROGRAMS = hello variables conditions files
+PROGRAMS = hello variables conditions files functions arrays pointers structs
 
 all: $(PROGRAMS)
 
