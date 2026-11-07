@@ -4,6 +4,12 @@
 *.exe
 hello
 variables
+conditions
+files
+
+# Files created by the programs when they run
+notes.txt
+numbers.txt
 
 # Editor and system files
 .vscode/
