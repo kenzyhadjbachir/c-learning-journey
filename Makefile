@@ -1,6 +1,6 @@
 CC       = gcc
 CFLAGS   = -Wall -Wextra -std=c11
-PROGRAMS = hello variables
+PROGRAMS = hello variables conditions
 
 all: $(PROGRAMS)
 
