@@ -24,6 +24,7 @@ Hello, C world!
 .
 ├── hello.c      # Lesson 0: Hello world
 ├── variables.c  # Lesson 1: Variables and types
+├── conditions.c # Lesson 2: Conditions and loops
 ├── Makefile     # Build and run commands
 ├── .gitignore   # Files Git should ignore
 ├── LICENSE      # MIT license
@@ -37,13 +38,14 @@ Hello, C world!
 | `make`              | Compile all programs            |
 | `make run`          | Compile and run `hello`         |
 | `make run-variables`| Compile and run `variables`     |
+| `make run-conditions`| Compile and run `conditions`   |
 | `make clean`        | Delete compiled files           |
 
 ## Roadmap
 
 - [x] Hello world
 - [x] Variables and types
-- [ ] Conditions and loops
+- [x] Conditions and loops
 - [ ] Functions
 - [ ] Arrays and strings
 - [ ] Pointers
