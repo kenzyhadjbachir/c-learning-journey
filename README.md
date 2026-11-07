@@ -7,7 +7,7 @@ My personal repository for learning the C programming language, one small progra
 You need a C compiler (`gcc` or `clang`) and `make`.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/c-learning-journey.git
+git clone https://github.com/kenzyhadjbachir/c-learning-journey.git
 cd c-learning-journey
 make run
 ```
