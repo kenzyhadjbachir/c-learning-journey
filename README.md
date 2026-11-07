@@ -22,7 +22,8 @@ Hello, C world!
 
 ```
 .
-├── hello.c      # First program
+├── hello.c      # Lesson 0: Hello world
+├── variables.c  # Lesson 1: Variables and types
 ├── Makefile     # Build and run commands
 ├── .gitignore   # Files Git should ignore
 ├── LICENSE      # MIT license
@@ -33,14 +34,15 @@ Hello, C world!
 
 | Command      | What it does                     |
 |--------------|----------------------------------|
-| `make`       | Compile the program              |
-| `make run`   | Compile and run the program      |
-| `make clean` | Delete compiled files            |
+| `make`              | Compile all programs            |
+| `make run`          | Compile and run `hello`         |
+| `make run-variables`| Compile and run `variables`     |
+| `make clean`        | Delete compiled files           |
 
 ## Roadmap
 
 - [x] Hello world
-- [ ] Variables and types
+- [x] Variables and types
 - [ ] Conditions and loops
 - [ ] Functions
 - [ ] Arrays and strings

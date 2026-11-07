@@ -1,16 +1,21 @@
-CC      = gcc
-CFLAGS  = -Wall -Wextra -std=c11
-TARGET  = hello
+CC       = gcc
+CFLAGS   = -Wall -Wextra -std=c11
+PROGRAMS = hello variables
 
-all: $(TARGET)
+all: $(PROGRAMS)
 
-$(TARGET): hello.c
-	$(CC) $(CFLAGS) -o $(TARGET) hello.c
+# Build any program NAME from NAME.c
+%: %.c
+	$(CC) $(CFLAGS) -o $@ $<
 
-run: $(TARGET)
-	./$(TARGET)
+# make run          -> runs hello
+# make run-variables -> runs variables (works for any program name)
+run: run-hello
+
+run-%: %
+	./$*
 
 clean:
-	rm -f $(TARGET)
+	rm -f $(PROGRAMS)
 
 .PHONY: all run clean

@@ -3,6 +3,7 @@
 *.out
 *.exe
 hello
+variables
 
 # Editor and system files
 .vscode/
